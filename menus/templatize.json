@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Convert templatize",
+        "command": "templatize:convert"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "templatize",
+          "submenu": [
+            {
+              "label": "Convert",
+              "command": "templatize:convert"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
