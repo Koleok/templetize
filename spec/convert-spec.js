@@ -1,5 +1,8 @@
 'use babel';
 
+/* globals expect */
+/* eslint-disable no-template-curly-in-string */
+
 import convert from '../lib/convertToTemplate';
 
 describe('convert when passed an empty string', () => {
