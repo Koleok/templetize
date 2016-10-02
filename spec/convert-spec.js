@@ -11,7 +11,7 @@ describe('convert when passed an empty string', () => {
   });
 
   it('should convert a concatenated string', () => {
-    expect(convert("'this ' + a + ' is the answer'"))
-      .toEqual('`this ${a} is the answer`');
+    expect(convert("'this ' + a + ' is the answer';"))
+      .toEqual('`this ${a} is the answer`;');
   });
 });

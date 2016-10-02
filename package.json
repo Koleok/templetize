@@ -12,6 +12,9 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "scripts": {
+    "test": "atom --test --timeout 60 ./spec/convert-spec.js"
+  },
   "dependencies": {
     "ramda": "^0.22.1",
     "ramda-lens": "^0.1.1",
